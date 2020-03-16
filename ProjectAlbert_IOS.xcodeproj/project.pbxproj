@@ -13,6 +13,7 @@
 		6D5991AD241FEE6C008EBD1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5991AC241FEE6C008EBD1D /* Assets.xcassets */; };
 		6D5991B0241FEE6C008EBD1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5991AF241FEE6C008EBD1D /* Preview Assets.xcassets */; };
 		6D5991B3241FEE6C008EBD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5991B1241FEE6C008EBD1D /* LaunchScreen.storyboard */; };
+		6D8A2830241FF5CA00ADB247 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A282F241FF5CA00ADB247 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D5991AF241FEE6C008EBD1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D5991B2241FEE6C008EBD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D5991B4241FEE6C008EBD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8A282F241FF5CA00ADB247 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,12 @@
 		6D5991A5241FEE6A008EBD1D /* ProjectAlbert_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				6D8A282E241FF4F900ADB247 /* LoginPage */,
 				6D5991A6241FEE6A008EBD1D /* AppDelegate.swift */,
 				6D5991A8241FEE6A008EBD1D /* SceneDelegate.swift */,
 				6D5991AA241FEE6A008EBD1D /* ContentView.swift */,
 				6D5991AC241FEE6C008EBD1D /* Assets.xcassets */,
+				6D8A282F241FF5CA00ADB247 /* Colors.xcassets */,
 				6D5991B1241FEE6C008EBD1D /* LaunchScreen.storyboard */,
 				6D5991B4241FEE6C008EBD1D /* Info.plist */,
 				6D5991AE241FEE6C008EBD1D /* Preview Content */,
@@ -73,6 +77,13 @@
 				6D5991AF241FEE6C008EBD1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D8A282E241FF4F900ADB247 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoginPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5991B3241FEE6C008EBD1D /* LaunchScreen.storyboard in Resources */,
+				6D8A2830241FF5CA00ADB247 /* Colors.xcassets in Resources */,
 				6D5991B0241FEE6C008EBD1D /* Preview Assets.xcassets in Resources */,
 				6D5991AD241FEE6C008EBD1D /* Assets.xcassets in Resources */,
 			);
